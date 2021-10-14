@@ -1,0 +1,13 @@
+#textoPesquisa {
+	color: red;
+}
+
+main {
+	background: url("banda.jpg");
+}
+
+#cardParagrafo {
+	background: black;
+	background-color: rgba(20,20,20,0.8);
+	width: 20%;
+}
