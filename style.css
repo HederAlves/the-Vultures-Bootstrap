@@ -7,7 +7,13 @@ main {
 }
 
 #cardParagrafo {
+	color: white;
 	background: black;
 	background-color: rgba(20,20,20,0.8);
-	width: 20%;
+}
+
+#cardParagrafo:hover {
+	background: black;
+	color: red;
+
 }
