@@ -1,5 +1,5 @@
 main {
-	margin-top: 110px;
+	margin-top: 125px;
 	background: url("theVulturesVermelho.png") white;
 	background-position: center;
 	background-size: 400px;
@@ -16,3 +16,49 @@ main {
 	color: red;
 }
 
+#inputContato {
+	color: white;
+	background: black;
+}
+
+#labelContato {
+	margin: 10px 0px 0px;
+}
+
+
+
+ 		/*MOBILE*/
+@media(max-width: 780px) {
+
+	body {
+		width: 375px;
+	}
+
+	header {
+	}
+
+	h1 {
+		display: flex;
+		justify-content: center;
+	}
+	
+	h3 {
+		width: 375px;
+	}
+
+	main {
+		display: flex;
+		flex-direction: column;
+		justify-content: ;
+		width: 360px;
+		margin-top: 259px;
+	}
+
+	#carouselExampleControls {
+		display: flex;
+		height: 750px;
+		align-items: center;
+		background: black;
+	}
+
+	}
