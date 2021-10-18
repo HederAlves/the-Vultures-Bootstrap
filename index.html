@@ -9,50 +9,52 @@
 </head>
 <body>
 
-	<header class="fixed-top d-flex justify-content-around" style="background: black;">
+	<header class="fixed-top d-flex justify-content-around row" style="background: black;">
 		<h1>
 			<img src="theVulturesVermelho.png" class="w-50" alt="Logo da banda">
 		</h1>
-		<div>
-		<div class="btn-group">
-		  <button type="button" class="btn btn-danger">Shows</button>
-		  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		  </button>
-		  <div class="dropdown-menu">
-		    <a class="dropdown-item" href="parana.html">Paraná</a>
-		    <a class="dropdown-item" href="santaCatarina.html">Santa Catarina</a>
-		    <a class="dropdown-item" href="showIndisponivel.html">Outros estados</a>
-		    <div class="dropdown-divider"></div>
-		  </div>
-		</div>	
-		<a class="btn btn-primary" href="#carouselExampleControls" role="button">Fotos</a>
-		<a class="btn btn-primary" href="#" role="button">Inicio</a>
-		</div>
+
+
+		<ul id="menuNavega" class="nav nav-pills mt-5 mb-5">
+		   <li class="nav-item dropdown mr-2">
+		    <a class="btn btn-danger dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Shows</a>
+		    <div class="dropdown-menu">
+			    <a class="dropdown-item" href="parana.html">Paraná</a>
+			    <a class="dropdown-item" href="santaCatarina.html">Santa Catarina</a>
+			    <a class="dropdown-item" href="showIndisponivel.html">Outros estados</a>
+		    </div>
+		   </li>
+		  <li class="nav-item">
+		    <a class="btn btn-outline-danger" href="#carouselExampleControls" role="button">Fotos</a>
+			<a class="btn btn-outline-danger" href="#contatoAtivação" role="button">Contato</a>
+			<a class="btn btn-outline-danger" href="#" role="button">Inicio</a>
+		  </li>
+		</ul>
 
 	</header>
 
 		<main>		
-			<h3 class="text-white text-center m-0 p-3" style="background: black;">Sobre a banda</h3>
+			<h3 class="h1 text-danger font-weight-bold text-center m-0 p-3" style="background: black;">Sobre a banda</h3>
 			<div class="text-center m-3  d-inline-flex row d-flex justify-content-around">
-				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 p-m-5 border">Banda independente de Rock n' Roll, voltado ao publico grunge</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Em 2008, a The Vultures começa a ganhar forma, as asas do nosso abutre crescia e ganhava forças.</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 p-m-5 border">Seus integrantes em 2008 ainda eram adolescentes, todos da mesma região, com um único e compartilhado sonho, o qual já começava a ser realidade</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 p-m-5 border">Alguns anos depois as difículdades surgiram, agora mais velhos tinhamos obrigações de pessoas mais velhas</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 p-m-5 border">Começamos a nos afastar por motivos de responsabilidades maoires, nosso abutre então no ano de 2013 entra em uma hibernação</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Em 2016, nosso abutre dava sinais de quem queria acordar, então seus integrantes se reuniram para ajudar ele levantar</p>
-				<p id="cardParagrafo" class="col-lg-2 card m-3 p-3 p-m-5 border">Ele estava sedento por rock, o simples fato de tocar já não conseguia satisfazer sua existência, ele queria mais</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Então após um tempo de recuperação nosso abutre voltou a voar e a consquistar os céus, passando por diversos bares e palcos</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Ele agora estava com a galera e todos os amantes do bom e velho Rock n' Roll, aonde era seu lugar, aonde ele fazia a todos eletrizar e agitar com seu som</p>
-				<p id="cardParagrafo" class="col-lg-2 card m-3 p-3 p-m-5 border">A the vultures inicia sua jornada de shows logo após seu retorno em 2016</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 border">Banda independente de Rock n' Roll, voltado ao publico grunge</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3  border">Em 2008, a The Vultures começa a ganhar forma, as asas do nosso abutre crescia e ganhava forças.</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 border">Seus integrantes em 2008 ainda eram adolescentes, todos da mesma região, com um único e compartilhado sonho, o qual já começava a ser realidade</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3 border">Alguns anos depois as difículdades surgiram, agora mais velhos tinhamos obrigações de pessoas mais velhas</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3 p-3  border">Começamos a nos afastar por motivos de responsabilidades maoires, nosso abutre então no ano de 2013 entra em uma hibernação</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Em 2016, nosso abutre dava sinais de quem queria acordar, então seus integrantes se reuniram para ajudar ele levantar</p>
+				<p id="cardParagrafo" class="col-lg-2 card m-3 p-3 border">Ele estava sedento por rock, o simples fato de tocar já não conseguia satisfazer sua existência, ele queria mais</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Então após um tempo de recuperação nosso abutre voltou a voar e a consquistar os céus, passando por diversos bares e palcos</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Ele agora estava com a galera e todos os amantes do bom e velho Rock n' Roll, aonde era seu lugar, aonde ele fazia a todos eletrizar e agitar com seu som</p>
+				<p id="cardParagrafo" class="col-lg-2 card m-3 p-3 border">A the vultures inicia sua jornada de shows logo após seu retorno em 2016</p>
 			</div>
 
-			<h3 class="text-white text-center m-0 p-3" style="background: black;">Sobre os shows</h3>
+			<h3 class="h1 text-danger font-weight-bold text-center m-0 p-3" style="background: black;">Sobre os shows</h3>
 			<div class="text-center p-5 d-inline-flex row d-flex justify-content-around">
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Fazemos shows em todo território do sul do Brasil</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Podendo ser compartilhado com outras Bandas ou somente nosso</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Tendo duração e quantidade de músicas váriados de acordo com pacote de shows escolhido pelo contratante</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Não fornecemos estrutura de som para shows de grande porte</p>
-				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 p-m-5 border">Somente instrumentos, caixas e amplificadores particular de cada músico. Podendo ser ultilizado em bares, e shows menores</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3  border">Fazemos shows em todo território do sul do Brasil</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Podendo ser compartilhado com outras Bandas ou somente nosso</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Tendo duração e quantidade de músicas váriados de acordo com pacote de shows escolhido pelo contratante</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Não fornecemos estrutura de som para shows de grande porte</p>
+				<p id="cardParagrafo" class="col-lg-2 card  m-3  p-3 border">Somente instrumentos, caixas e amplificadores particular de cada músico. Podendo ser ultilizado em bares, e shows menores</p>
 			</div>
 		</main>
 
@@ -91,25 +93,27 @@
 
 		
 
-		<form class="w-25 text-center"> 
+		<form id="formContato" class="text-center mt-5"> 
 		  <h4>Entre em contato conosco</h4>
-		  <label for="exampleFormControlInput1">Nome Completo</label>
-		  <input class="form-control" type="text" placeholder="The Vultures">
-		  <label for="exampleFormControlInput1">Telefone</label>
-		  <input class="form-control" type="tel" placeholder="(xx)x.xxxx-xxxx">
+		  <label id="labelContato" for="exampleFormControlInput1">Nome Completo</label>
+		  <input id="inputContato" class="form-control text-center" type="text" placeholder="The Vultures">
+		  <label id="labelContato" for="exampleFormControlInput1">Telefone</label>
+		  <input id="inputContato" class="form-control text-center" type="tel" placeholder="(xx)x.xxxx-xxxx">
 		  <div class="form-group">
-		    <label for="exampleInputEmail1">Endereço de email</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu melhor email">
+		    <label id="labelContato" for="exampleInputEmail1">Endereço de email</label>
+		    <input id="inputContato" type="email" class="form-control text-center" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu melhor email">
 		    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
 		  </div>
-		  <div class="form-group form-check">
-		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-		    <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+		  <div>
+		  	<label id="labelContato" for="exampleFormControlInput1">Mensagem</label>
+		  	<textarea id="inputContato" class="form-control text-center" cols="80" rowns="10" id=mensagem required placeholder="Olá, gostaria de saber..."></textarea>
 		  </div>
-		  <button type="submit" class="btn btn-primary">Enviar</button>
 
-
-		<div class="blocoPreferenciaDeContato">
+		  <div class="form-group form-check">
+		    <input type="checkbox" class="form-check-input text-center" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">Deseja receber novidades por email?</label>
+		  </div>
+		  <div class="blocoPreferenciaDeContato">
 			<p>Como prefere nosso contato?</p>
 			<div class="form-check form-check-inline">
 	 		 	<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
@@ -121,12 +125,10 @@
 			</div>
 			<div class="form-check form-check-inline">
 				<input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="opcao3">
-				<label class="form-check-label" for="inlineRadio3">Whatsapp</label>
+				<label id="contatoAtivação" class="form-check-label" for="inlineRadio3">Whatsapp</label>
 			</div>
 		</div>
-		
-		
-
+		  <button type="submit" class="btn btn-success w-75 m-2">Enviar</button>
 
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
