@@ -30,20 +30,10 @@ main {
  		/*MOBILE*/
 @media(max-width: 780px) {
 
-	body {
-	}
-
-	header {
-	}
-
 	h1 {
 		display: flex;
 		justify-content: center;
-	}
-	
-	h3 {
-		width: 375px;
-	}
+
 
 	main {
 		margin-top: 259px;
