@@ -31,7 +31,6 @@ main {
 @media(max-width: 780px) {
 
 	body {
-		width: 375px;
 	}
 
 	header {
@@ -47,10 +46,6 @@ main {
 	}
 
 	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: ;
-		width: 360px;
 		margin-top: 259px;
 	}
 
