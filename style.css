@@ -38,15 +38,14 @@ main {
 	}
 	
 	main {
-		display: flex;
-		flex-direction: column;
-		justify-content: ;
+		width:375px;
 		margin-top: 259px;
 	}
 
 	#carouselExampleControls {
 		display: flex;
 		height: 750px;
+		width: 375px;
 		align-items: center;
 		background: black;
 	}
