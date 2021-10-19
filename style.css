@@ -5,6 +5,7 @@ main {
 	background-size: 400px;
 }
 
+
 #cardParagrafo {
 	color: white;
 	background: black;
@@ -34,16 +35,10 @@ main {
 		display: flex;
 		justify-content: center;
 	}
-	
-	h3 {
-		width: 375px;
-	}
 
 	main {
 		display: flex;
 		flex-direction: column;
-		justify-content: ;
-		width: 360px;
 		margin-top: 259px;
 	}
 
