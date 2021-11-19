@@ -1,5 +1,5 @@
 .imagemFundo {
-	background-image:url("theVulturesVermelho.png");
+	background-image:url("../imagens/theVulturesVermelho.png");
 	background-position: center;
 	background-size: 300px;
 	margin: 0 auto;
@@ -45,21 +45,19 @@ p {
 	font-size: 25px;
 }
 
-		/*MOBILE*/
+	/*MOBILE*/
 @media(max-width: 768px) {
 
 	.imagemFundo {
 		width: 330px;
 		height: 706px;
-		background-image:url("theVulturesVermelho.png");
+		background-image:url("../imagens/theVulturesVermelho.png");
 		background-size: 334px;
 		background-position: center;
-
 	}
 
 	body {
 		padding: 50px 10px 10px 5px;
-
 	}
 
 	.listaDeShows {
@@ -102,5 +100,4 @@ p {
 	.showIndisponivel {
 		padding: 50px 0px;
 	}
-
 }
