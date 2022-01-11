@@ -51,7 +51,7 @@ p {
 	.imagemFundo {
 		width: 330px;
 		height: 706px;
-		background-image:url("../imagens/theVulturesVermelho.png");
+		background-image:url("../image/theVulturesVermelho.png");
 		background-size: 334px;
 		background-position: center;
 	}
