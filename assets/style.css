@@ -27,7 +27,11 @@ main {
 
  		/*MOBILE*/
 @media(max-width: 780px) {
-
+	
+	header ul {
+		height: 40px;
+	}
+	
 	h1 {
 		display: flex;
 		justify-content: center;
