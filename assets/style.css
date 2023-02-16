@@ -40,7 +40,7 @@ main {
 	main {
 		display: flex;
 		flex-direction: column;
-		margin-top: 262px;
+		margin-top: 260px;
 	}
 
 	#carouselExampleControls {
